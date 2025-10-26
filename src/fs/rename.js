@@ -3,7 +3,7 @@ import { dirname, join } from "path"
 
 const ORIGINAL_FILE_PATH = "src/fs/files/wrongFilename.txt"
 const NEW_FILENAME = "properFilename.md"
-const ERROR_MSG = "Rename operation failed"
+const ERROR_MSG = "FS operation failed"
 
 const rename = async (path, newName, mode = constants.COPYFILE_EXCL) => {
   try {

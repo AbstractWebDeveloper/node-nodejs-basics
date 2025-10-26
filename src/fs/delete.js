@@ -1,7 +1,7 @@
 import { stat, unlink } from "fs/promises"
 
 const DELETE_FILE_PATH = "src/fs/files/fileToRemove.txt"
-const ERROR_MSG = "Delete operation failed"
+const ERROR_MSG = "FS operation failed"
 
 const remove = async (file) => {
     try {
